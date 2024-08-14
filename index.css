@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 ;
+    background-color: rgb(164, 154, 140);
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.chechbox {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+input[type="checkbox"] {
+    transform: scale(3.5); 
+}
+label{
+    font-size: 35px;
+}
+button {
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 35px;
+    margin-top: 35px;
+}
+#count {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+p{
+    font-size: 50px;
+    margin-bottom: 80px;
+}
